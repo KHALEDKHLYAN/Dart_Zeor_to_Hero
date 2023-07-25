@@ -1,3 +1,18 @@
+/*
+Data types help you to categorize all the different types of data you use in your code. 
+For e.g. numbers, texts, symbols, etc. 
+The data type specifies what type of value will be stored by the variable. 
+Each variable has its data type. Dart supports the following built-in data types :
+              1.Numbers
+              2.Strings
+              3.Booleans
+              4.Lists
+              5.Maps
+              6.Sets
+              7.Runes
+              8.Null
+ */
+
 void main(List<String> arguments) {
   // Numbers: int
   int score = 23;

@@ -19,6 +19,7 @@ void main(List<String> arguments) {
 
   print(score);
   print(exponents);
+  print(company);
 
   // NOTE: All data types in Dart are Objects.
   // Therefore, their initial value is by default 'null'

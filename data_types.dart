@@ -17,9 +17,11 @@ void main(List<String> arguments) {
   bool isValid = true;
   var isAlive = false;
 
-  print(score);
+  print('output $score and $hexValue');
   print(exponents);
   print(company);
+  print(
+      'this is $count and boolins are $isAlive , $isValid the Double $percentage ,$percent Strings is $name');
 
   // NOTE: All data types in Dart are Objects.
   // Therefore, their initial value is by default 'null'

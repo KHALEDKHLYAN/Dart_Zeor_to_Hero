@@ -14,4 +14,7 @@ void main() {
   //Finding Length of List
   int length = names.length;
   print('this is the length of the Arrays $length');
+
+  List<int> numbers = [1, 4, 5, 8];
+  print(numbers);
 }

@@ -17,6 +17,13 @@ The value of the key can be accessed by using a square bracket([]).
 void main() {
   var student = {'name': 'khaled', 'age': '23'};
   //Adding a value at runtime
-  student['course'] = ' B.tech';
+  student['course'] = ' B.tech'; //passing the new key value keyword course
   print(student);
+
+  Map<String, String> myDetails = {
+    'Name': 'Gerad',
+    'Age': '52',
+    'status': 'married'
+  };
+  print(myDetails);
 }

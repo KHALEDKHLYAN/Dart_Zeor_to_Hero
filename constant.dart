@@ -20,7 +20,7 @@ In Dart Variables, the variable name should start with lower-case, and every sec
 Technically, this naming convention is called lowerCamelCase.
  */
 // Not standard way
-  var fullname = "John Doe";
+  // var fullname = "John Doe";
 // Standard way
   var fullName = "John Doe";
   // const pi =

@@ -8,7 +8,7 @@ To create a constant in Dart, you can use the const keyword.
 
 void main() {
   const pi = 3.14;
-  pi = 4.23; // not possible
+  // pi = 4.23; // not possible
   print(
       "Value of PI is $pi"); //(output) Constant variables can't be assigned a value.
 
@@ -23,6 +23,8 @@ Technically, this naming convention is called lowerCamelCase.
   var fullname = "John Doe";
 // Standard way
   var fullName = "John Doe";
-  const pi =
-      3.14; //Displays Error because we have already Assign Pi to another Value
+  // const pi =
+  3.14; //Displays Error because we have already Assign Pi to another Value
+
+  print('this $fullName');
 }

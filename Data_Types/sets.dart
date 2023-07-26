@@ -5,7 +5,7 @@ void main() {
   Set<String> weekdays = {"Sun", "Mon", "Tues", "Wed", " Thurs", "Frie"};
   print(weekdays);
 
-  weekdays.add('satur')
+  weekdays.add('satur');
 
   int length = weekdays.length;
   print(length);

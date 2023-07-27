@@ -4,10 +4,10 @@ import 'dart:io';
 
 void main() {
   print('Enter Your First Name:');
-  String firstName = stdin.readLineSync()!;
+  String? firstName = stdin.readLineSync()!;
 
   print('Enter Your Last Name:');
-  String lastName = stdin.readLineSync()!;
+  String? lastName = stdin.readLineSync()!;
 
   // Concatenate the first name and last name to get the full name
   String fullName = '$firstName $lastName';

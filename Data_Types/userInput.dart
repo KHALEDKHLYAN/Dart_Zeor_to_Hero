@@ -17,4 +17,9 @@ void main() {
   print('Enter Height');
   double height = double.parse(stdin.readLineSync()!); //inputting a double
   print('Wow $Name this is your $Age and Height $height');
+  /* print("Enter Your Height:");
+  String? height = stdin.readLineSync();
+  int? Value = int.parse(height.toString());
+  int squre = Value * Value;
+  print("This is the Square Value of Your Height: $squre");*/
 }

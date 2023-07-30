@@ -6,8 +6,8 @@ is! --> Gives boolen value false if the object has a specific Type
  */
 
 void main() {
-  String value = "I love Dart language";
-  int age = 23;
+  dynamic value = "I love Dart language";
+  dynamic age = 23;
 
   print(value is String);
   print(age is! int);

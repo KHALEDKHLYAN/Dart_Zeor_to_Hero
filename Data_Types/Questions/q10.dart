@@ -10,8 +10,8 @@
 
 void main() {
   String admNo = "24";
-  print("This is you Adminision number as a String $admNo.runtimeType");
+  print("This is you Adminision number as a String ${admNo.runtimeType}");
   int stringInt = int.parse(admNo);
   print("String to int :$stringInt");
-  print("$stringInt.runtimeType");
+  print("${stringInt.runtimeType}");
 }

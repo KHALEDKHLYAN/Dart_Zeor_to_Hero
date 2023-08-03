@@ -10,6 +10,7 @@ void main() {
   int? numberOfPeople = int.parse(stdin.readLineSync()!);
   print("Enter your Total bill Amount:");
   int totalBillAmout = int.parse(stdin.readLineSync()!);
-  print(
-      "Split amount of bill is : ${(totalBillAmout) ~/ numberOfPeople} Per Person");
+
+  double splitAmountBill = totalBillAmout / numberOfPeople;
+  print("Split amount of bill is : $splitAmountBill Per Person");
 }

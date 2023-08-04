@@ -34,8 +34,8 @@ void main() {
   // print("Sum of even numbers between 1 and 10: $total");
 
   // Display Even Numbers Between 50 to 100 Using While Loop
-  int i = 50;
-  while (i <= 100) {
+  int i = 10;
+  while (i <= 30) {
     if (i % 2 == 0) {
       print(i);
     }

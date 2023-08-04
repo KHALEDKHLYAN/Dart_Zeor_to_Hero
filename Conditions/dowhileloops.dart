@@ -16,10 +16,29 @@ When the condition is false, the loop stops.
 */
 
 void main() {
-  int i = 0;
+  // int i = 10;
 
-  while (i <= 10) {
-    print(i);
+  // while (i >= 1) {
+  //   print(i);
+  //   i--;
+  // }
+  //Note: Do not forget to increase the variable used in the condition. Otherwise, the loop will never end and becomes an infinite loop.
+  // int total = 0;
+  // int i = 1;
+  // int n = 10;
+
+  // while (i <= n) {
+  //   total += i;
+  //   i += 2;
+  // }
+  // print("Sum of even numbers between 1 and 10: $total");
+
+  // Display Even Numbers Between 50 to 100 Using While Loop
+  int i = 50;
+  while (i <= 100) {
+    if (i % 2 == 0) {
+      print(i);
+    }
     i++;
   }
 }

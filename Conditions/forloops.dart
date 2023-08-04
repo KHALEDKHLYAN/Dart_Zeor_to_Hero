@@ -24,4 +24,12 @@ void main() {
     total = total + i;
   }
   print(total);
+
+  //Display Even Numbers Between 50 to 100 Using For Loop
+
+  for (int i = 50; i <= 100; i++) {
+    if (i % 2 == 0) {
+      print(i);
+    }
+  }
 }

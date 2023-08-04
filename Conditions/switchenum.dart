@@ -9,7 +9,7 @@ Here is the syntax for defining enum.
   constant_value2, 
   constant_value3 
   }
- */
+*/
 
 import 'dart:io';
 

@@ -25,7 +25,6 @@ syntax
 
 void main() {
   var weekDays = 9;
-
   switch (weekDays) {
     case 1:
       print("Day is Sunday");

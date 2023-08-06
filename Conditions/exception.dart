@@ -11,6 +11,10 @@ try {
 catch(ex){
 // Exception here
 }
+Try--> You can write the logical code that creates exceptions in the try block.
+
+Catch--> When you are uncertain about what kind of exception a program produces, then a catch block is used. 
+It is written with a try block to catch the general exception.
 */
 
 import 'dart:io';

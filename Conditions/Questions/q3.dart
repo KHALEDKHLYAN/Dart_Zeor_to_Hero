@@ -7,11 +7,11 @@ void main() {
     print("Enter Any Number");
     int number = int.parse(stdin.readLineSync()!);
     if (number > 0) {
-      print("a Positive Number");
+      print("$number Positive Number");
     } else if (number < 0) {
-      print("A negative Number");
+      print("$number negative Number");
     } else if (number == 0) {
-      print("This is Zero");
+      print("$number This is Zero");
     }
   } catch (ex) {
     print("You Must Enter a Number!!");

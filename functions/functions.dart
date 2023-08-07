@@ -23,10 +23,19 @@ Note: The main objective of the function is DRY(Don’t Repeat Yourself).
 
 */
 
-void printName() {
-  print("Khaled");
+// void printName() {
+//   print("Khaled");
+// }
+
+// void main() {
+//   printName();
+// }
+
+void sumTwo(int num1, int num2) {
+  int add = num1 + num2;
+  print("This is the Sum of two Numbers $add");
 }
 
 void main() {
-  printName();
+  sumTwo(30, 21);
 }

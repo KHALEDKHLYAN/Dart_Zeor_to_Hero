@@ -1,8 +1,10 @@
-void simpleIntrest(double p, double r, double t) {
-  double simplIntrest = p * r * t / 100;
-  print(simplIntrest);
-}
+double simpleIntrest(double Principal, double rate, double time) =>
+    Principal * rate * time / 100;
 
 void main() {
-  simpleIntrest(700, 5, 2);
+  double Principal = 700;
+  double rate = 6;
+  double time = 3;
+  double result = simpleIntrest(Principal, rate, time);
+  print(result);
 }

@@ -17,4 +17,23 @@ void main() {
 
   int randomNumber2 = random.nextInt(10) + 1;
   print("Generate a Random number btwn 0 to 10: $randomNumber2");
+
+/*
+In this program, random.nextInt(10) function is used to generate a random number between 0 and 9 in which the value is stored in a variable randomNumber.
+
+The random.nextInt(10)+1 function is used to generate random number between 1 to 10 in which the value is stored in a variable randomNumber2.
+*/
+
+/*
+Generate Random Number Between Any Number
+Use this formula to generate a random number between any numbers in the dart.
+
+ min + Random().nextInt((max + 1) - min);
+
+*/
+  int min = 10;
+  int max = 20;
+
+  int randomNumber3 = min + Random().nextInt((max + 1) - min);
+  print("Generating a random Number btwn $min to $max is: $randomNumber3");
 }

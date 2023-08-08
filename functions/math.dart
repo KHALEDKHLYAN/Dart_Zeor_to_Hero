@@ -31,9 +31,25 @@ Use this formula to generate a random number between any numbers in the dart.
  min + Random().nextInt((max + 1) - min);
 
 */
-  int min = 10;
-  int max = 20;
+  // int min = 10;
+  // int max = 20;
 
-  int randomNumber3 = min + Random().nextInt((max + 1) - min);
-  print("Generating a random Number btwn $min to $max is: $randomNumber3");
+  // int randomNumber3 = min + Random().nextInt((max + 1) - min);
+  // print("Generating a random Number btwn $min to $max is: $randomNumber3");
+
+  List<int> randomList = List.generate(10, (_) => Random().nextInt(100) + 1);
+  print(randomList);
+
+  int num1 = 10;
+  int num2 = 2;
+
+  num pownum = pow(num1, num2);
+  num maxnum = max(num1, num2);
+  num minnum = min(num1, num2);
+  num squareRoot = sqrt(25);
+
+  print("The power of two numbers is: $pownum");
+  print("The Maximun number is: $maxnum");
+  print("The minum Number is: $minnum");
+  print("The Square root of a number is: $squareRoot");
 }

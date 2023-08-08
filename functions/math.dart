@@ -44,6 +44,7 @@ Use this formula to generate a random number between any numbers in the dart.
   int num2 = 2;
 
   num pownum = pow(num1, num2);
+
   num maxnum = max(num1, num2);
   num minnum = min(num1, num2);
   num squareRoot = sqrt(25);
@@ -52,4 +53,11 @@ Use this formula to generate a random number between any numbers in the dart.
   print("The Maximun number is: $maxnum");
   print("The minum Number is: $minnum");
   print("The Square root of a number is: $squareRoot");
+
+  /*
+  In this program, pow(num1, num2) is a function where num1 is a digit and num2 is a power.
+max(num1,num2) is a function which give the maximum number between num1 and num2.
+min(num1,num2) is a function which give the mininum number between num1 and num2.
+sqrt(25) is a function that gives the square root of 25.
+  */
 }

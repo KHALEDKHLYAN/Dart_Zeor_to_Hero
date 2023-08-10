@@ -1,12 +1,25 @@
 //Write a program in Dart to reverse a String using function.
 
+// import 'dart:convert';
 import 'dart:io';
 
+void main() {
+  try {
+    print("Enter Any String:");
+    String input = stdin.readLineSync() ?? '';
+
+    // var coflutter = 'Coflutter';
+    print('Reversed string using split: ${reverseStringUsingSplit(input)}');
+  } catch (ex) {
+    print(ex);
+  }
+
+  // print(reverseStringUsingSplit(coflutter));
+  // print(reverseStringUsingRunes(coflutter));
+  // print(reverseStringUsingCodeUnits(coflutter));
+}
+
 String reverseStringUsingSplit(String input) {
-  print("Enter Any WOrd:");
-  String? input = stdin.readLineSync();
-
-
   var chars = input.split('');
   return chars.reversed.join();
 }
@@ -18,10 +31,3 @@ String reverseStringUsingSplit(String input) {
 // String reverseStringUsingCodeUnits(String input) {
 //   return String.fromCharCodes(input.codeUnits.reversed);
 // }
-void main() {
-  // var coflutter = 'Coflutter';
-
-  // print(reverseStringUsingSplit(coflutter));
-  // print(reverseStringUsingRunes(coflutter));
-  // print(reverseStringUsingCodeUnits(coflutter));
-}

@@ -16,3 +16,24 @@ void main(){
     print(ex);
   }
 }
+
+/*
+import 'dart:io';
+
+void main() {
+  List<double> expenses = [];
+
+  stdout.write("Enter the number of expenses: ");
+  int numExpenses = int.parse(stdin.readLineSync()!);
+
+  for (int i = 0; i < numExpenses; i++) {
+    stdout.write("Enter expense ${i + 1}: ");
+    double expense = double.parse(stdin.readLineSync()!);
+    expenses.add(expense);
+  }
+
+  double total = expenses.reduce((value, element) => value + element);
+
+  print("Total expenses: \$${total.toStringAsFixed(2)}");
+}
+*/

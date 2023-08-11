@@ -11,11 +11,27 @@ Let’s see the syntax below:
 */
 
 void main(){
-  List<int> numbers = [12,11,21,32,33,45,66,79,89,66,56];
+  // List<int> numbers = [12,11,21,32,33,45,66,79,89,66,56];
 
-  List<int> oddNumbers = numbers.where((number) => number.isOdd).toList();
-  for(int i=0;i<=5;i++){
-    print(oddNumbers[i]);
-  }
+  // List<int> oddNumbers = numbers.where((number) => number.isOdd).toList();
+  // for(int i=0;i<=5;i++){
+  //   print(oddNumbers[i]);
+  // }
   // print(oddNumbers);
+
+  List<String> days =[
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday"
+  ];
+
+  List<String> startWithS = days.where((element) => element.startsWith("S")).toList();
+  print("${startWithS}");
+  // for(int i=0;i<=5;i++){
+  //   print("${startWithS[i]}");
+  // }
 }

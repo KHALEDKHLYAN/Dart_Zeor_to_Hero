@@ -19,7 +19,7 @@ void main(){
   // }
   // print(oddNumbers);
 
-  List<String> days =[
+ /* List<String> days =[
     "Sunday",
     "Monday",
     "Tuesday",
@@ -34,4 +34,16 @@ void main(){
   // for(int i=0;i<=5;i++){
   //   print("${startWithS[i]}");
   // }
+  */
+  Map<String, double> mathMarks ={
+    "Sham": 62,
+    "suleiman":43,
+    "Tesla": 31,
+    "Junior": 72,
+    "Mashello":30
+  };
+  mathMarks.removeWhere((key, value) => value <32);
+  print(mathMarks);
+
+
 }

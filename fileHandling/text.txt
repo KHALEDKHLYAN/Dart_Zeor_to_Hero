@@ -1,1 +1,6 @@
 hello Welcome!!
+Name,
+Email,
+Phone Number
+John, john@gmail.com, 1234567890
+Smith, smith@gmail.com, 0987654321

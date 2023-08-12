@@ -10,4 +10,6 @@ void main(){
   print(file.path);
   //get Absolute path
   print(file.absolute.path);
+  //get file size
+  print("Finding FIle size: ${file.lengthSync()}bytes");
 }

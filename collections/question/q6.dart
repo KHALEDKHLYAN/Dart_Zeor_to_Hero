@@ -9,7 +9,7 @@ void main(){
     "Country":'Nigeria',
   };
   //update the value of key Country in mymap
-  myMap["country"] = 'Ghana';
+  myMap["country"] = ['Ghana'];
   print(myMap);
   // myMap.forEach((key, value) {
   //   print("$key ,$value");

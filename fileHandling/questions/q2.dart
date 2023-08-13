@@ -6,6 +6,6 @@ void main(){
   File file = File('hello.txt');
   print("Enter Your Friends Name:");
   String? inputFriendsName = stdin.readLineSync();
-  file.writeAsString("Name: ${inputFriendsName}\n", mode: FileMode.append);
+  file.writeAsString(": ${inputFriendsName}\n", mode: FileMode.append);
   print("Good Work You added!!");
 }

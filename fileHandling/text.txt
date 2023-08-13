@@ -1,7 +1,1 @@
-hello Welcome!!
-
-Name: John,
-Email: john@gmail.com,
-Phone Number: 1234567890
-  
-Name:Smith, Email:smith@gmail.com, Phone Number:0987654321
+Wow Awesome!

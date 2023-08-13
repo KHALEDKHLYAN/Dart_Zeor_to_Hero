@@ -13,3 +13,4 @@ void main(){
   }
   print("COngratulations! For adding To Csv!!");
 }
+//Note: You can create any type of file using writeAsStringSync() method. For example, .html, .json, .xml, etc.

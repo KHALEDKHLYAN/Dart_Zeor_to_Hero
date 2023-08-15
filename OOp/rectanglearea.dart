@@ -22,3 +22,7 @@ void main() {
 
   print("The rectangle Are is: ${rectangle.containsRectangle()}");
 }
+
+//Note: Here ! is used to tell the compiler that the variable is not null. 
+//If you don’t use !, then you will get an error.
+// You will learn more about it in null safety later.

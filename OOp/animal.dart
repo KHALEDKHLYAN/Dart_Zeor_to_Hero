@@ -18,4 +18,10 @@ void main(){
   animal.numberOfLegs = 4;
   animal.lifeSpan = 23;
   animal.display();
+  print("\n");
+  Animal animal2 = Animal();
+  animal2.name = "Dog";
+  animal2.numberOfLegs = 4;
+  animal2.lifeSpan = 12;
+  animal2.display();
 }

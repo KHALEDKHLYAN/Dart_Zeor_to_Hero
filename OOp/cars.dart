@@ -4,20 +4,26 @@ The class also has a method called start, which prints out the message “Car St
 We also have an object of the class Car called car.
 */
 
-class Car{
+class Car {
   String? name;
   String? color;
   int? numberOfSeats;
 
-  void start(){
+  void start() {
     print("$name Car started");
   }
 }
 
-void main(){
+void main() {
   Car car = Car();
   car.name = "Buggati";
-  car.color= "GoldenOrage";
-  car.numberOfSeats= 8;
+  car.color = "GoldenOrage";
+  car.numberOfSeats = 8;
   car.start();
+
+  Car car2 = Car();
+  car2.name = "Range Rover";
+  car2.color = "Black";
+  car2.numberOfSeats = 12;
+  car2.start();
 }

@@ -15,7 +15,6 @@ syntx
   Functions are used to perform the operations. It is also known as methods.
 
 */
-
 class Student {
   String? name;
   int? age;

@@ -48,3 +48,10 @@ void main(){
   print(student.rollNumber);
 
 }
+
+/*
+Note: The this keyword is used to refer to the current instance of the class.
+It is used to access the current class properties. In the example above, 
+        parameter names and class properties of constructor Student are the same. 
+Hence to avoid confusion, we use the this keyword.
+*/

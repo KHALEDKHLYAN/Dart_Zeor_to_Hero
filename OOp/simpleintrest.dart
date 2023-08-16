@@ -3,6 +3,8 @@ In this example below there is class SimpleInterest with three properties: princ
 The class also has a method called interest, which calculates the simple interest.
 */
 
+import 'dart:io';
+
 class SimpleInterest{
   double ?principal;
   double? rate;
@@ -15,7 +17,9 @@ class SimpleInterest{
 
 void main(){
   SimpleInterest simpleInterest = SimpleInterest();
-  simpleInterest.principal = 15000;
+  print("Enter Your Principal:");
+  double principalValue = double.parse(stdin.readLineSync()!);
+  simpleInterest.principal = principalValue;
   simpleInterest.rate = 5.6;
   simpleInterest.time = 3;
 

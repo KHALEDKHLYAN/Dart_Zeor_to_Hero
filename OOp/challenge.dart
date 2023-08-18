@@ -20,9 +20,14 @@ class Car{
   }
 
   //named Constructor
-  Car.namedConstructor(String? name,String? color, int? prize);
+  Car.namedConstructor(String? name,String? color, [int? prize=0]){
+    this.name = name;
+    this.color = color;
+    this.prize=prize;
+  }
 
-  Car.namedConstructor2(String? name,String? color);
+   Car.namedConstructor2(this.name, this.color); // Default price
+    
 }
 
 void main(){

@@ -30,3 +30,12 @@ void main() {
   print("HashNode ${p3.hashCode}");
 
 }
+
+/*
+Note: Here p1 and p2 has the same hash code. 
+This is because p1 and p2 are constant objects. 
+The hash code of a constant object is the same. 
+This is because the hash code of a constant object is computed at compile time. 
+The hash code of a non-constant object is computed at run time. 
+This is why p3 and p4 have different hash code.
+*/

@@ -22,3 +22,5 @@ void main() {
   // This is not possible
   //student._schoolname = "XYZ School";
 }
+
+//Note: You can also define getter and setter using get and set keywords.

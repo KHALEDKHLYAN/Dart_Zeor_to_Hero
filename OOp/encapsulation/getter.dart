@@ -33,3 +33,5 @@ void main(){
   print(nb._name);
   print(nb._prize);
 }
+
+//Note: In the above example, a getter name and prize are used to access the value of the properties _name and _prize.

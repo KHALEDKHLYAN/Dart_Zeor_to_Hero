@@ -10,9 +10,8 @@ Note: Properties declared with the final keyword must be initialized at the time
 class Student {
   final _schoolName = "ABCD School";
 
-  String getschoolName() {
-    return _schoolName;
-  }
+  String getschoolName() => _schoolName;
+  
 }
 
 void main() {

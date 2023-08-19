@@ -12,14 +12,12 @@ class Employee{
   String? _name;
 
   //get to get the private property
-  String getName(){
-    return _name!;
-  }
+  String getName() => _name!;
+  
 
   //Set to access the private value
-  void setName(String _name){
-    this._name = _name;
-  }
+  void setName(String _name)=>  this._name = _name;
+  
 }
 
 void main(){

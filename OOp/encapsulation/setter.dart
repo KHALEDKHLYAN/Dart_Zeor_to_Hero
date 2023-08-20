@@ -30,3 +30,4 @@ void main(){
   noteBook.display();
 }
 
+//Note: In the above example, a setter name and prize are used to update the value of the properties _name and _prize.

@@ -5,8 +5,6 @@ We will also create two setters name and classnumber to update the value of the 
 The classnumber setter will only accept a value between 1 and 12. 
 The class also has a method display() to display the values of the properties.
 */
-import 'dart:io';
-
 class Student {
   //private values
   String? _name;
@@ -30,9 +28,9 @@ class Student {
 }
 
 void main() {
-  Student student = new Student();
+  Student student = Student();
   student.name = "khaled";
-  student.classnumber = 14;
+  student.classnumber = 4;
   student.display();
 }
 

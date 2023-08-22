@@ -24,12 +24,18 @@ class Student{
 
   //Setter to update age value
   set age(int age){
-    if(age >= 0){
+    if(age <= 0){
       throw("Age must be more then 0!!");
     }
     this._age = age;
   }
 
+}
+void main(){
+  Student student = new Student();
+  student.firstName = "natalie";
+  student.lastName = "nana";
+  student.age = -3;
 
-
+  print("She is ${student.fullName} with an age of ${student.age}");
 }

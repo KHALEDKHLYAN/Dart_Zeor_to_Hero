@@ -5,17 +5,18 @@ class Account {
   double balance = 0.0;
 
   // Method to withdraw money from the account
- withdraw(double amount) {
+  withdraw(double amount) {
     if (amount > 0 && amount <= balance) {
       balance -= amount;
-      print('Withdrawal successful. Remaining balance: \$${balance.toStringAsFixed(2)}');
+      print(
+          'Withdrawal successful. Remaining balance: \$${balance.toStringAsFixed(2)}');
     } else {
       print('Invalid withdrawal amount or insufficient funds.');
     }
   }
 
   // Method to top-up money into the account
- topUp(double amount) {
+  topUp(double amount) {
     if (amount > 0) {
       balance += amount;
       print('Top-up successful. New balance: \$${balance.toStringAsFixed(2)}');
@@ -52,7 +53,7 @@ void main() {
         account.topUp(topUpAmount);
         break;
       case 3:
-        print('Exiting...');
+        print('Thank You for Choosing Us!!');
         return;
       default:
         print('Invalid choice. Please select a valid option.');

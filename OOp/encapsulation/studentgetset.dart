@@ -35,7 +35,7 @@ void main(){
   Student student = new Student();
   student.firstName = "natalie";
   student.lastName = "nana";
-  student.age = -3;
+  student.age = 23;
 
   print("She is ${student.fullName} with an age of ${student.age}");
 }

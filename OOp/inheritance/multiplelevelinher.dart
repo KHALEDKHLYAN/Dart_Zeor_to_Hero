@@ -41,3 +41,5 @@ void main(){
   m.color = "Red";
   m.display();
 }
+
+//Note: Here super keyword is used to call the method of the parent class.

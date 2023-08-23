@@ -58,5 +58,8 @@ void main(){
   student.name = "Enock";
   student.age=20;
   student.display();
-  
+  student.schoolAdderess = 1785;
+  student.schoolName = "ABCD School";
+  student.displaySchoolInfo();
+
 }

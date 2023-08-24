@@ -25,6 +25,7 @@ class MacBook extends Laptop{
 
 void main(){
   var macBook = MacBook("Mac41 pro", "Golden");
+  macBook.hashCode;
 
 }
 

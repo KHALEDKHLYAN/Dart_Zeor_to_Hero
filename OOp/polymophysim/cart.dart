@@ -18,4 +18,7 @@ class Tesla extends Vehicle{
 void main(){
   Vehicle car = Vehicle();
   car.run();
+
+  Tesla ts = Tesla();
+  ts.run();
 }

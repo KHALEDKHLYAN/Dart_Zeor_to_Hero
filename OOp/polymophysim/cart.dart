@@ -22,3 +22,5 @@ void main(){
   Tesla ts = Tesla();
   ts.run();
 }
+
+//Note: If you don’t write @override, the program still runs. But, it is a good practice to write @override.

@@ -39,4 +39,7 @@ class Dog extends Animal{
 void main(){
   Animal animal = Animal();
   animal.eat();
+
+  Dog dg = Dog();
+  dg.eat();
 }

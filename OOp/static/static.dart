@@ -49,3 +49,8 @@ void main(){
   Employee em3 = Employee();
   em3.display();
 }
+
+/*
+Note: While creating the objects of the class, the static variable count is incremented by 1. 
+The totalEmployee() method displays the value of the static variable count.
+*/

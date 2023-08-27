@@ -20,4 +20,7 @@ class Student{
 void main() {
   Student st1 = Student(45454, "Shukrimaalim");
   st1.display();
+  print("");
+  Student st2 = Student(9879, "rahma Yusuf\n");
+  st2.display();
 }

@@ -25,7 +25,7 @@ enum days{
 }
 
 void main(){
-  var today = days.Sunday;
+  var today = days.Monday;
 
   switch (today) {
     case days.Sunday:

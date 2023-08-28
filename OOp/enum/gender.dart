@@ -21,8 +21,8 @@ class Student{
 
   // method to display
   display(){
-    print("Students FullName : ${firstName}''${lastName}");
-    print("Student Gender: ${gender}");
+    print("Students FullName : $firstName''$lastName");
+    print("Student Gender: $gender");
   }
 }
 

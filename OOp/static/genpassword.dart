@@ -25,3 +25,10 @@ class PasswordGenerator {
 void main() {
   print(PasswordGenerator.generateRandomPassword());
 }
+
+//Note: You don’t need to create an instance of a class to call a static method.
+/*
+Key Points To Remember
+Static members are accessed using the class name.
+All instances of a class share static members.
+*/

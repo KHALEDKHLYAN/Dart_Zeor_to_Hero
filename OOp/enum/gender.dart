@@ -6,9 +6,9 @@ The Gender enum type is used in the Person class.
 
 
 enum Gender{
-  Male,
-  Female,
-  Transgender
+  male,
+  female,
+  transgender
 }
 
 class Student{
@@ -28,6 +28,6 @@ class Student{
 
 void main(){
   // Creating a new object of student Class with constructor parameters
-  Student student = Student("Keisha", "Maryana", Gender.Female);
+  Student student = Student("Keisha", "Maryana", Gender.female);
   student.display();
 }

@@ -65,3 +65,6 @@ void main(){
   bike.start();   ///prints "Bike started"
   bike.stop();
 }
+
+//Note: The abstract class is used to define the behavior of a class that can be inherited by other classes. 
+//You can define an abstract method inside an abstract class.

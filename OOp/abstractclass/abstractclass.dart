@@ -14,4 +14,54 @@ abstract class ClassName {
   method1();
   method2();
 }
+
+Subclasses of an abstract class must implement all the abstract methods of the abstract class. 
+It is used to achieve abstraction in the Dart programming language.
+
+In this example below, there is an abstract class Vehicle with two abstract methods start() and stop(). 
+The subclasses Car and Bike implement the abstract methods and override them to print the message.
 */
+
+
+abstract class Vehicle {
+  // Abstract method
+  void start();
+  // Abstract method
+  void stop();
+}
+
+class Car extends Vehicle {
+  // Implementation of start()
+  @override
+  void start() {
+    print('Car started');
+  }
+
+  @override
+  void stop(){
+    print("Car stopped");
+  }
+}
+
+class Bike extends Vehicle {
+  // Implementation of start()
+  @override
+  void start() {
+    print('Bike started');
+  }
+
+  @override
+  void stop(){
+    print("Bike stopped");
+  }
+}
+
+void main(){
+  Car car = Car();
+  car.start();// prints 'Car Started'
+  car.stop(); 
+
+  Bike bike = Bike();
+  bike.start();   ///prints "Bike started"
+  bike.stop();
+}

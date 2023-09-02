@@ -26,6 +26,28 @@ class SBI extends Bank{
   // Constructor
   SBI(String name, double rate) : super(name, rate);
 
-  
+  @override
+  void interest() {
+    print("the rate of intrest: $rate");
+  }
+
+}
+
+class ICICI extends Bank{
+
+  //Constructor
+  ICICI (String name,double rate):super(name,rate);
+
+  //override methed
+  @override
+  void interest (){
+    print('The rate of Interest: $rate');
+  }
+}
+
+void main(){
+  ICICI ic = ICICI('ICICI', 6.87);
+  ic.interest();
+  ic.display();
 }
 

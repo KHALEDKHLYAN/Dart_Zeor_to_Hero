@@ -49,5 +49,9 @@ void main(){
   ICICI ic = ICICI('ICICI', 6.87);
   ic.interest();
   ic.display();
+
+  SBI sbi = SBI('SBI', 567.0098);
+  sbi.interest();
+  sbi.display();
 }
 

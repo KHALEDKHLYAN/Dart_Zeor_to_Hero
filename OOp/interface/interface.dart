@@ -40,7 +40,7 @@ class Laptop{
   }
 }
 
-class MacBook extends Laptop{
+class MacBook implements Laptop{
 
   @override
   void turnOn(){

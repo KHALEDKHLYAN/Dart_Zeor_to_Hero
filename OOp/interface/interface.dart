@@ -27,3 +27,34 @@ In this example below, there is an interface Laptop with two methods turnOn() an
 The class MacBook implements the interface and overrides the metIn this example below, there is an interface Laptop with two methods turnOn() and turnOff(). The class MacBook implements the interface and overrides the methods to print the message.hods to print the message.
 */
 
+class Laptop{
+
+  //methods
+  void turnOn(){
+    print("Laptop Turned on");
+  }
+
+  //Method2 
+  void turnOff(){
+    print("Laptop Turned off");
+  }
+}
+
+class MacBook extends Laptop{
+
+  @override
+  void turnOn(){
+    print('Macbook turned On');
+  }
+
+  @override
+  void turnOff(){
+    print("MacBook Turned Off");
+  }
+}
+
+void main(){
+  MacBook macBook = MacBook();
+  macBook.turnOn();
+  macBook.turnOff();
+}

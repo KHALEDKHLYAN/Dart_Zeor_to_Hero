@@ -36,4 +36,5 @@ class Student implements CalculateTotal, CalculateAverage {
 void main(){
   Student student = Student (90,85,76);
   print("Students Total :${student.total()}");
+  print("Students Average: ${student.average()}");
 }

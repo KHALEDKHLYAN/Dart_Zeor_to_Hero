@@ -29,8 +29,10 @@ abstract class Animal{
   void run();
 }
 
+// mixin CanRun is only used by class that extends Animal
 mixin CanRun on Animal{
-  //method
+  // implementation of abstract method
+  @override
   void run() => print("$name can run with a Speed of: $speed H/Km ");
 }
 
@@ -44,3 +46,15 @@ void main(){
   Dog dog = Dog("german Shepherd", 230);
   dog.run();
 }
+
+/*
+What Is Allowed For Mixin
+    You can add properties and static variables.
+    You can add regular, abstract, and static methods.
+    You can use one or more mixins in a class.
+
+What Is Not Allowed For Mixin
+      You can’t define a constructor.
+      You can’t extend a mixin.
+      You can’t create an object of mixin.
+*/

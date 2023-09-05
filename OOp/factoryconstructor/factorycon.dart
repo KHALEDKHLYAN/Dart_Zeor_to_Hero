@@ -38,9 +38,9 @@ class Area{
 }
 
 void main(){
-  Area area = Area(40, 10);
+  Area area = const Area(40, 10);
   print("Area is ${area.area}");
 
-  Area area1 = Area(-10, 12);
+  Area area1 = const Area(-10, 12);
   print("Area is : ${area1.area}");
 }

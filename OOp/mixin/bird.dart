@@ -6,15 +6,13 @@ The Human class uses the CanWalk mixin.
 */
 
 mixin CanFly{
-  void canfly(){
-    print("They Can Fly");
-  }
+  void canfly() => print("They Can Fly");
+  
 }
 
 mixin CanWalk{
-  void canwalk(){
-    print('They can Walk');
-  }
+  void canwalk() => print('They can Walk');
+  
 }
 
 class Bird with CanFly, CanWalk{

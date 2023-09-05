@@ -44,3 +44,6 @@ void main(){
   Area area1 = const Area(-10, 12);
   print("Area is : ${area1.area}");
 }
+
+//Here area2 object has a negative value. 
+//This is because we are not validating the input. Let’s create a factory constructor to validate the input.

@@ -27,3 +27,7 @@ void main(){
   // Area are1 = Area(-10, 20);
   // print('Area is : ${are1.area}');
 }
+
+/*
+Note: With a factory constructor, you can initialize a final variable using logic that can’t be handled in the initializer list.
+*/

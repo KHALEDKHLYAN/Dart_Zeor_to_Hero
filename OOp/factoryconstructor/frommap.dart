@@ -21,5 +21,8 @@ class Person{
 
 void main(){
   final person = Person('keith', 'lukman');
-  print('his full names are ${person.firstName} ${person.lastName}');
+  print('His full names are ${person.firstName} ${person.lastName}');
+
+  final Person2 = Person.fromMap({'firstName':'Joe', 'lastName':'Doe'});
+  print ('${Person2.firstName} ${Person2.lastName}');
 }

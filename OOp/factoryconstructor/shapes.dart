@@ -37,3 +37,5 @@ void main(){
   Shape shape = Shape(ShapeType.circle);
   shape.draw();
 }
+
+//Note: Here it is possible to make List which contains both Circle and Rectangle objects in it.

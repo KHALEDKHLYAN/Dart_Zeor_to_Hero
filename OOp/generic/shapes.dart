@@ -63,3 +63,6 @@ void main(){
 }
 
 
+//Advantages of Generics
+// It solve the problem of type safety.
+// It helps to reuse our code.

@@ -19,5 +19,11 @@ class Laptop{
 
 void main(){
   Laptop laptop = Laptop(45002, "MackBook", "64Gb");
+  Laptop laptop2 = Laptop(8788, "HP-ELite", "18Gb");
+  Laptop laptop3 = Laptop(6757, "Probook", "16Gb");
+
   laptop.Display();
+  laptop2.Display();
+  laptop3.Display();
+
 }

@@ -41,7 +41,7 @@ class Camera{
 void main(){
   Camera camera1 = Camera(1, 'Canon', 'Black', 799.99);
   Camera camera2 = Camera(2, 'Nikon', 'Silver', 899.99);
-  Camera camera3 = Camera(3, 'Sony', 'Red', 999.99);
+  Camera camera3 = Camera(3, 'Sony-china', 'Red', 999.99);
 
   //Displaying
   print('Camera ID: ${camera1.id} brand: ${camera1.brand} color: ${camera1.color} Prize: ${camera1.prize}');

@@ -7,8 +7,6 @@ In this example below, there is a Data class that works only with int and double
 It will not work with other types..
 */
 
-import '../../functions/QuestionFunctions/q1.dart';
-
 class Data<T extends num>{
   T data;
   Data(this.data);

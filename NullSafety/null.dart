@@ -8,7 +8,8 @@ Advantage Of Null Safety
     Reduce the chances of application crashes.
     Easy to find and fix bugs in code.
 
-Note: Null safety avoids null errors, runtime bugs, vulnerabilities, and system crashes which are difficult to find and fix.
+Note: Null safety avoids null errors, 
+runtime bugs, vulnerabilities, and system crashes which are difficult to find and fix.
 
 Example 1: Using Null In Variables
 In the example below, the variable age is a int type. If you pass a null value to this variable, it will give an error instantly.
@@ -18,3 +19,11 @@ void main() {
 }
 
 */
+// address is a nullable string
+void printAddress(String? address) {
+  print(address);
+}
+void main() {
+  // Passing null to printAddress
+  printAddress(null); // Works
+}

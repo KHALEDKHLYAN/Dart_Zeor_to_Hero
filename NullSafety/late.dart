@@ -6,6 +6,9 @@ When you put late infront of a variable declearation, you tell Dart the followin
     Don’t assign that variable a value yet.
     You will assign value later.
     You will make sure the variable has a value before you use it.
+
+  Note: The late keyword is contract between you and Dart. You are telling Dart that you will assign a value to the variable before you use it. 
+  If you don’t assign a value to the variable before you use it, Dart will throw an error.
 */
 
 // late variable

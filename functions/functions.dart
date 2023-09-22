@@ -18,7 +18,8 @@ Note: The main objective of the function is DRY(Don’t Repeat Yourself).
 
         Function Name: You can name functions by almost any name. Always follow a lowerCamelCase naming convention like void printName().
 
-        Parameters: Parameters are the input to the function, which you can write inside the bracket (). Always follow a lowerCamelCase naming convention for your function parameter.
+        Parameters: Parameters are the input to the function, which you can write inside the bracket (). 
+                    Always follow a lowerCamelCase naming convention for your function parameter.
 
 
 */

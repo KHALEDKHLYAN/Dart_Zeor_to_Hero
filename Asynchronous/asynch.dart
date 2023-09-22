@@ -23,8 +23,8 @@ Note: To Perform asynchronous operations in dart you can use the Future class an
 */
 
 void main() {
-  print("First Operation");   
-  Future.delayed(Duration(seconds:3),()=>print('Second Big Operation'));
-  print("Third Operation"); 
-  print("Last Operation"); 
+  print("First Operation");
+  Future.delayed(Duration(seconds: 3), () => print('Second Big Operation'));
+  print("Third Operation");
+  print("Last Operation");
 }

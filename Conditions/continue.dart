@@ -10,7 +10,7 @@ Here is the syntax of continue statement:
 
 void main() {
   for (int i = 0; i <= 10; i++) {
-    if (i == 5) {
+    if (i == 5 || i == 7 || i == 9) {
       continue;
     }
     print(i);

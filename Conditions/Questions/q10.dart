@@ -6,7 +6,6 @@ calculate the shipping cost according to thr conditions:
   if the destination zone is 'ABC' the shipping cost is $7 per kiligram.
   if the destination zone is 'PQR' the shipping cost is $10 per kiligram.
   if the destination zone is not 'XYZ'or 'ABC'or'PQR', then display an error message
-
 */
 void main() {
   String destination = 'NYX';
@@ -21,7 +20,7 @@ void main() {
   } else {
     print('Invalid Destination');
   }
-
+//
   switch (destination) {
     case 'XYZ':
       print('Shipping cost ${weightInKgs * 5}');

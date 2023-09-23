@@ -19,3 +19,6 @@ Future<String> middleFunction(){
   //return new Future();
   return Future.delayed(Duration(seconds: 2),()=> 'Hello');
 }
+
+//Note: In the above example, First, it prints Start, secondly it prints End, and after 5 seconds Hello will be printed.
+

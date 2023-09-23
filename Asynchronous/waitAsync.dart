@@ -33,3 +33,8 @@ Future<String> middleFunction() {
 
 //Note: We cannot perform an asynchronous operation from a synchronous function.
 
+/*
+async The async keyword can be used before a function’s body to indicate that a function is asynchronous.
+async function Functions marked with the async keyword are known as async functions.
+await The completed output of an asynchronous expression can be retrieved with the await keyword. Only async functions can use the await keyword.
+*/

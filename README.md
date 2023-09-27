@@ -81,4 +81,3 @@ If you find any errors or have suggestions for improvement, please [open an issu
 
 ---
 
-*Note: This is a fictional README and is provided as an example. Be sure to replace the placeholders with your actual content and customize it to fit your specific tutorial.*

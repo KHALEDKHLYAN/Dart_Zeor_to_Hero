@@ -71,13 +71,13 @@ This tutorial aims to provide a comprehensive introduction to Dart programming l
 - Feel free to modify and experiment with the provided code examples.
 
 ## Additional Resources
-
 - [Dart Language Official Documentation](https://dart.dev/guides)
 - [Flutter Framework Documentation](https://flutter.dev/docs)
 
 ## Feedback and Contributions
 
 If you find any errors or have suggestions for improvement, please [open an issue](https://github.com/your/tutorial/repository/issues). Contributions are also welcome!
+
 
 ---
 

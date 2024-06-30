@@ -11,8 +11,8 @@ void printEvenNumbersIntervals(int start, int end) {
 }
 
 void main() {
-  int intervalStart = 10;
-  int intervalEnd = 30;
+  // int intervalStart = 10;
+  // int intervalEnd = 30;
 
-  printEvenNumbersIntervals(intervalStart, intervalEnd);
+  printEvenNumbersIntervals(10, 30);
 }

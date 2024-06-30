@@ -7,11 +7,10 @@ Note: The arrow function is used to make your code short.=> expr syntax is a sho
 
 //calculating Simple Interest
 
-void simpleInterest(double p, double r, double t) {
-  double sI = p * r * t / 100;
-  print(sI);
-}
+double simplIntrest(double principal, double rate, double time) => 
+principal * rate * time/100;
 
-void main() {
-  simpleInterest(8500, 6, 3);
+void main(){
+  double results = simplIntrest(5000, 3, 3);
+  print("The simple Intrest is $results");
 }

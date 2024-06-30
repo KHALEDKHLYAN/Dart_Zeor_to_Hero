@@ -19,7 +19,7 @@ void main() {
 //this is the second example of Swapping a number using Dart 3.0
   int a = 7, b = 3;
 
-  (a, b) == (b, a);
+  (b, a) = (a, b);
 
   print('$a ... $b');
 }

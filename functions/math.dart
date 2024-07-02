@@ -44,6 +44,7 @@ Use this formula to generate a random number between any numbers in the dart.
   int num2 = 2;
 
   num pownum = pow(num1, num2);
+  
 
   num maxnum = max(num1, num2);
   num minnum = min(num1, num2);

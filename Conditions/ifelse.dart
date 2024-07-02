@@ -11,15 +11,31 @@ if(Condition){
 }
 */
 
-import 'dart:io';
+// import 'dart:io';
 
-void main() {
-  print("Enter Your Age:");
-  int Age = int.parse(stdin.readLineSync()!);
+// void main() {
+//   print("Enter Your Age:");
+//   int Age = int.parse(stdin.readLineSync()!);
 
-  if (Age >= 18) {
-    print("You can take");
-  } else {
-    print("You're not Allowed to Take Alcohol");
+//   if (Age >= 18) {
+//     print("You can take");
+//   } else {
+//     print("You're not Allowed to Take Alcohol");
+//   }
+// }
+
+void main(){
+  num abc = 12;
+  num lmn = 27;
+  num xyz = 4;
+
+  if (abc > lmn){
+    print("abc is greater than lmn");
+  }else if(lmn > abc){
+    print("lmn is greater than abc");
+  } if(abc> xyz){
+    print("abc is greater than xyz");
+  }else if(xyz > abc){
+    print("xyz is greater than abc");
   }
 }
